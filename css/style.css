@@ -25,3 +25,25 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+nav{
+  background: #322E41;
+}
+.nav__display{
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo{
+  padding:  14px 0;
+}
+.nav__menu{
+  color: #fff;
+  display: flex;
+  gap: 30px;
+  padding: 23px 23px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 200ms;
+}
+.nav__menu .nav__link:hover{
+  color: #FFE600;
+}

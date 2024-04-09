@@ -25,6 +25,30 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.header {
+  min-height: 100vh;
+  display: flex;
+}
+.header__content {
+  flex-grow: 1;
+  background: url(../img/header-bg.jpg) no-repeat center / cover;
+   color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header__title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.header__desc {
+  font-size: 18px;
+}
+
 nav{
   background: #322E41;
 }
@@ -45,5 +69,5 @@ nav{
 }
 .nav__menu .nav__link:hover{
   color: #FFE600;
-  
+
 }

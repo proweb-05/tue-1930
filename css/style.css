@@ -25,3 +25,62 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.footer__nav{
+  background-color: #322E41;
+  padding: 22px 0;
+}
+
+.footer__logo{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.footer__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: "Roboto";
+  color: #fff;
+  
+}
+.footer__study{
+  background-color: #1E1A29;
+}
+.footer__descr{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 0;
+  color:#fff;
+  transition: 0.7s;
+}
+.footer__descr:hover{
+  color: #FFE600;
+}
+.footer__link{
+  color: #fff;
+  transition: 0.7s;
+  position: relative;
+}
+.footer__link:hover{
+color: #FFE600;
+}
+
+.footer__link::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -21px;
+  width: 100%;
+  height: 1px;
+  transition: 0.7s;
+  background-color: transparent;
+}
+.footer__link:hover::after{
+  background-color: #fff;
+}
+  
+

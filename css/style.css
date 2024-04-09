@@ -38,12 +38,12 @@ nav{
 .nav__menu{
   color: #fff;
   display: flex;
-  gap: 30px;
   padding: 23px 23px;
   font-size: 16px;
   font-weight: 400;
-  transition: 200ms;
+  transition: 200ms;  gap: 30px;
 }
 .nav__menu .nav__link:hover{
   color: #FFE600;
+  
 }

@@ -25,3 +25,21 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.products__list {
+  display: flex;
+  background: #A0A0A0;
+}
+
+.products__img {
+  background: #000;
+  width: 328px;
+  border: 1px solid white;
+  background-color: green;
+  height: 260px;
+  border-right: 0px;
+}
+
+.products__p {
+  color: #6A6A6A;
+}
